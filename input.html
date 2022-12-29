@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Basico </title>
+</head>
+<body>
+    <section>
+    <h1>Inputs Basicos</h1>
+    </section>
+
+    <hr>
+
+    <section>
+    <form action="html's/input.html"></form>
+
+    <label>Nome</label> <br>
+    <input placeholder="Insira seu nome" type="text" name="Nome"> <br>
+
+    <label>Senha</label> <br>
+    <input placeholder="Insira sua senha" type="Password" name="Senha"> <br>
+
+    <label>Time</label><br>
+    <input type="text" placeholder="Selecione seu time" name="Lista de Time" list="Lista de time">
+    <datalist id="Lista de time">
+        <option value="São Paulo" />
+        <option value="Vasco da Gama" />
+        <option value="Internacional" />
+        <option value="Coritiba" />
+        <option value="Avai" />
+    </datalist><br>
+
+
+    <label>Opções</label> <br>
+    <input type="Radio" name="Opção">A
+    <input type="Radio" name="Opção">B
+    <input type="Radio" name="Opção">C <br>
+
+    <label>Multipla Escolhas</label> <br>
+    <input type="checkbox" name="Multiplo">1
+    <input type="checkbox" name="Multiplo">2
+    <input type="checkbox" name="Multiplo">3 <br>
+
+    <label>Texto</label> <br>
+    <textarea name="Texto" id="" cols="30" rows="10"></textarea> <br>
+
+    <label>Arquivo</label>
+    <input type="file" name="Arquivo"> <br><br><br>
+
+    <label>Genêro</label>
+    <select name="Genêro" id="">
+        <option value="Masculino">Masculino</option>
+        <option selected value="Feminino">Feminino</option>
+    </select> <br><br>
+
+    <label>Marcas de Carro</label>
+    <select name="Carro" id="">
+        <optgroup label="Alemães">
+            <option value="Mercedes">Mercedes</option>
+            <option value="Audi">Audi</option>
+        </optgroup>
+        <optgroup label="Suecos">
+            <option value="Volvo">Volvo</option>
+            <option value="Saab">Saab</option>
+        </optgroup>
+    </select> <br><br>
+
+    <input type="button" value="Botão sem ação"><br>
+    <input type="submit" value="Enviar"> <br><br><br>
+    <a href="http://localhost/"> Voltar para o menu </a>
+</section>
+    
+</body>
+</html>
